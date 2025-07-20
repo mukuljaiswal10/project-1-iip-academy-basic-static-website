@@ -69,7 +69,6 @@ body
     font-weight: 200;
     letter-spacing:1px;
 }
-
 /* end */
 
 /* menu-section css */
@@ -111,6 +110,11 @@ body
 .menu-list:hover h3 a
 {
     color:#00A8EC;
+    text-decoration: underline;
+}
+a.active 
+{
+    color:#00A8EC !important;
     text-decoration: underline;
 }
 /* end */

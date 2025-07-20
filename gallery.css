@@ -113,6 +113,11 @@ body
     color:#00A8EC;
     text-decoration: underline;
 }
+a.active 
+{
+    color:#00A8EC !important;
+    text-decoration: underline;
+}
 /* end */
 
 /* banner-section */

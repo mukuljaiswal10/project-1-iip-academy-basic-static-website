@@ -1,0 +1,315 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana;
+    text-decoration: none;
+}
+body 
+{
+    background-color: black;
+}
+.main 
+{
+    width: 1170px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+/* info-add css */
+.row1 
+{
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #343130;
+    padding: 10px 20px;
+}
+.row1c1
+{
+    flex-basis:50%;
+    display: flex;
+    /* padding: 10px 20px; */
+}
+.globe
+{
+    padding-right:5px;
+}
+.web-add 
+{
+    padding-left:5px;
+}
+.web-add p a
+{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing:1px;
+}
+.row1c2
+{
+    flex-basis:50%;
+    display: flex;
+    /* padding: 5px 20px; */
+    justify-content: right;
+}
+.email
+{
+    padding-right:5px;
+}
+.email-add 
+{
+    padding-left:5px;
+}
+.email-add p a
+{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing:1px;
+}
+
+/* end */
+
+/* menu-section css */
+.menu-section 
+{
+    width: 1170px;
+    /* background-color: bisque; */
+    background-color:white;
+    padding:0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo 
+{
+    flex-basis: 25%;
+    /* background-color: yellow; */
+}
+.logo img 
+{
+    display: block;
+}
+.menu 
+{
+    flex-basis: 75%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-list 
+{
+    flex-basis: 13.666%;
+    margin: 0px 1.5%;
+    padding-top: 130px;
+} 
+.menu-list h3 a 
+{
+    color: black;
+}
+.menu-list:hover h3 a
+{
+    color:#00A8EC;
+    text-decoration: underline;
+}
+/* end */
+
+/* banner-section */
+.banner-section 
+{
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px 30px;
+    background-color: #F1F0EF;
+}
+.banner-sideBar 
+{
+    flex-basis:25%;
+    background-color: white;
+    padding: 10px 15px;
+}
+.banner-sideBarMenu
+{
+    margin-bottom: 20px;
+}
+.banner-sideBarMenu .banner-sideBarMenuList
+{
+    background-color:#00A8EC;
+    padding:8px 0px;
+    margin:10px 0px;
+}
+.banner-sideBarMenu .banner-sideBarMenuList:hover 
+{
+    background-color: aqua;
+}
+.banner-sideBarMenu .banner-sideBarMenuList a h3 
+{
+    color: white;
+    text-align: center;
+}
+.banner-sideBar-new 
+{}
+.banner-sideBar-new .news 
+{
+    background-color: #EF9C00;
+    padding:15px 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.banner-sideBar-new .news h3 
+{
+    text-align: center;
+    color: white;
+}
+.news-list 
+{
+    padding:0px 30px;
+    border: 1px solid black;
+    border-top:none;
+}
+.news-list ul li 
+{
+    padding:10px 0px;
+}
+.news-list ul li::marker 
+{
+    color: #EF9C00;
+    font-size:26px;
+}
+.gallery-section 
+{
+    flex-basis: 75%;
+    background-color:white;
+    padding: 18px 15px;
+}
+.gallery-navigate 
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: yellow; */
+}
+.gallerys 
+{
+    flex-basis:50%;
+    /* background-color: pink; */
+}
+.gallery h2 
+{
+    
+}
+.navi 
+{
+    flex-basis: 50%;
+    /* background-color: plum; */
+    text-align: right;
+    font-style: italic;
+}
+.navi a 
+{
+    color: #00A8EC;
+}
+.navi h2 
+{
+    display: inline-block;
+}
+.gallery 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.gallery-list 
+{
+    flex-basis: 30%;
+    margin: 1.5%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.gallery-img 
+{
+    width: 100%;
+}
+.gallery-img img 
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+.gallery-title 
+{
+    margin-top:1px;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #343130;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/* end */
+
+
+/* footer-section-css */
+.footer-section 
+{
+    width: 1170px;
+    padding:10px 30px;
+    background-color:#343130;
+    display: flex;
+    flex-wrap: wrap;
+}
+.link-list 
+{
+    flex-basis: 22%;
+    margin: 1.5%;
+}
+.link-list h2 
+{
+    color: white;
+    padding-bottom:40px;
+}
+.link-list  a 
+{
+    color: white;
+}
+.link-list  a:hover 
+{
+    color: wheat;
+}
+.link-list .links 
+{
+    padding-bottom: 20px;
+}
+.topp 
+{
+    padding-top:60px;
+}
+.links p 
+{
+    color: white;
+    line-height:25px;
+}
+span 
+{
+    color: white;
+}
+/* end */
+
+/* copy-right */
+.copy-section 
+{
+    width: 1170px;
+    background-color: #302D2C;
+}
+.copy-section p 
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+/* end */
